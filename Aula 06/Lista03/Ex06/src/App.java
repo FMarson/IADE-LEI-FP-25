@@ -29,7 +29,7 @@ public class App {
 
         valorFinal = 0; // caso seja digitada uma opção inválida.
         switch (formaPagamento) {
-            case 1:
+            case 1: 
                 valorFinal = valorCompra * 0.9f;
                 break;
             case 2:

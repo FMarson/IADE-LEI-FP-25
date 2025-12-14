@@ -19,7 +19,7 @@ public class App {
 
         System.out.println("Informe a sua altura: ");
         altura = teclado.nextFloat();
-
+        
         switch (genero) {
             case 'f':
             case 'F':
@@ -47,7 +47,11 @@ public class App {
         else {
             System.out.println("O gênero deve ser informado como f ou m.");
         }
+        
         */
-       teclado.close();
+
+ 
+
+        teclado.close();
     }
 }
